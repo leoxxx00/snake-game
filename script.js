@@ -47,7 +47,7 @@ function draw() {
     snake.some(part => part.x === head.x && part.y === head.y)
   ) {
     clearInterval(game);
-    alert("Game Over!");
+    alert("Game Over! Refreach a page to restart");
     return;
   }
 
